@@ -79,41 +79,44 @@ pip install -r requirements.txt
 
 ### 5️⃣ Start the Server
 ```bash
-    uvicorn app.main:app --reload ```
-    Visit the app at: http://127.0.0.1:8000
+    uvicorn app.main:app --reload 
 ```
+* Visit the app at: http://127.0.0.1:8000
 
 ---
 
 ### 📬 API Documentation
-    FastAPI provides auto-generated documentation:
-    Swagger UI → http://127.0.0.1:8000/docs
-    ReDoc UI → http://127.0.0.1:8000/redoc
+FastAPI provides auto-generated documentation:
+
+* Swagger UI → http://127.0.0.1:8000/docs
+* ReDoc UI → http://127.0.0.1:8000/redoc
 
 ---
 
 ### 🔐 Security
-    * Passwords are hashed securely using passlib with the bcrypt algorithm.
-    * Authenticated sessions are powered by JWT tokens (python-jose).
-    * Access to protected routes requires a valid Bearer Token in the header.
-    * All credentials are managed via environment variables to prevent leaks.
+* Passwords are hashed securely using passlib with the bcrypt algorithm.
+* Authenticated sessions are powered by JWT tokens (python-jose).
+* Access to protected routes requires a valid Bearer Token in the header.
+* All credentials are managed via environment variables to prevent leaks.
 
 ---
 
 
 ### 🤝 Contribution
-    Contributions are welcome! To contribute:
-        1. Fork the repo
-        2. Create a new branch (git checkout -b feature-name)
-        3. Make your changes and commit (git commit -am 'Add feature')
-        4. Push to the branch (git push origin feature-name)
-        5.Open a Pull Request 🚀
+
+Contributions are welcome! To contribute:
+1. Fork the repo
+2. Create a new branch (git checkout -b feature-name)
+3. Make your changes and commit (git commit -am 'Add feature')
+4. Push to the branch (git push origin feature-name)
+5. Open a Pull Request 🚀
 
 
 ---
 
 ### 👨‍💻 Author
-    Vansh Motiramani
+
+Vansh Motiramani
 
 ---
 
