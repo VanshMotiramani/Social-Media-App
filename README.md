@@ -71,6 +71,7 @@ social-media-app/
 
 ### 📥 Clone the Repository
 
+#️⃣ Run on Terminal
 ```bash
 git clone https://github.com/VanshMotiramani/Social-Media-App.git
 cd Social-Media-App
@@ -85,7 +86,8 @@ pip install -r requirements.txt
 ---
 
 ### Configure Environment Variables
-    Create a .env file in the root directory with the following content:
+
+⚙️ Create a .env file in the root directory with the following content:
 
 ```env
     DATABASE_URL=postgresql://<username>:<password>@localhost/<dbname>
@@ -100,15 +102,15 @@ pip install -r requirements.txt
 ```bash
     uvicorn app.main:app --reload 
 ```
-* Visit the app at: http://127.0.0.1:8000
+📌Visit the app at: http://127.0.0.1:8000
 
 ---
 
 ## 📬 API Documentation
 FastAPI provides auto-generated documentation:
 
-* Swagger UI → http://127.0.0.1:8000/docs
-* ReDoc UI → http://127.0.0.1:8000/redoc
+📄 Swagger UI → http://127.0.0.1:8000/docs
+📄 ReDoc UI → http://127.0.0.1:8000/redoc
 
 ---
 
@@ -121,7 +123,7 @@ FastAPI provides auto-generated documentation:
 ---
 
 
-## 🤝 Contribution
+## 📢 Contribution
 
 Contributions are welcome! To contribute:
 1. Fork the repo
