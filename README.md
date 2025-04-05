@@ -56,10 +56,14 @@ A fully functional **backend** for a social media platform built using **FastAPI
 git clone https://github.com/VanshMotiramani/Social-Media-App.git
 cd Social-Media-App
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate ```
+source venv/bin/activate  # On Windows: venv\Scripts\activate 
+```
 
 ```bash
-pip install -r requirements.txt ```
+pip install -r requirements.txt 
+```
+
+---
 
 ### Configure Environment Variables
     Create a .env file in the root directory with the following content:
@@ -69,22 +73,33 @@ pip install -r requirements.txt ```
     ALGORITHM=HS256
     ACCESS_TOKEN_EXPIRE_MINUTES=30 ```
     Replace the placeholders with your actual PostgreSQL credentials and a secure secret key.
+```
+
+---
 
 ### 5️⃣ Start the Server
 ```bash
     uvicorn app.main:app --reload ```
     Visit the app at: http://127.0.0.1:8000
+```
+
+---
 
 ### 📬 API Documentation
     FastAPI provides auto-generated documentation:
     Swagger UI → http://127.0.0.1:8000/docs
     ReDoc UI → http://127.0.0.1:8000/redoc
 
+---
+
 ### 🔐 Security
     * Passwords are hashed securely using passlib with the bcrypt algorithm.
     * Authenticated sessions are powered by JWT tokens (python-jose).
     * Access to protected routes requires a valid Bearer Token in the header.
     * All credentials are managed via environment variables to prevent leaks.
+
+---
+
 
 ### 🤝 Contribution
     Contributions are welcome! To contribute:
@@ -94,9 +109,13 @@ pip install -r requirements.txt ```
         4. Push to the branch (git push origin feature-name)
         5.Open a Pull Request 🚀
 
+
+---
+
 ### 👨‍💻 Author
     Vansh Motiramani
-    
+
+---
 
 
 
