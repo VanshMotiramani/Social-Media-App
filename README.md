@@ -37,25 +37,7 @@ A fully functional **backend** for a social media platform built using **FastAPI
 ---
 
 ## 📂 Project Structure
-
-social-media-app/ 
-├── app/ 
-│ ├── routes/
-│ │  ├──auth.py
-│ │  ├──posts.py
-│ │  ├──users.py
-│ │  └──vote.py
-│ ├── main.py # Entry point 
-│ ├── config.py
-│ ├── database.py
-│ ├── model.py
-│ ├── oauth2.py
-│ ├── schemas.py
-│ └── utils/ # Token handling, hashing, etc. 
-├── requirements.txt 
-├── .env # Environment variables 
-└── README.md
-
+<pre lang="text"> ```text social-media-app/ ├── app/ │ ├── routes/ │ │ ├── auth.py │ │ ├── posts.py │ │ ├── users.py │ │ └── vote.py │ ├── main.py # Entry point │ ├── config.py │ ├── database.py │ ├── model.py │ ├── oauth2.py │ ├── schemas.py │ └── utils/ # Token handling, hashing, etc. ├── requirements.txt ├── .env # Environment variables └── README.md ``` </pre>
 
 ---
 
@@ -74,28 +56,23 @@ social-media-app/
 git clone https://github.com/VanshMotiramani/Social-Media-App.git
 cd Social-Media-App
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+source venv/bin/activate  # On Windows: venv\Scripts\activate ```
 
 ```bash
-pip install -r requirements.txt
-```
+pip install -r requirements.txt ```
 
 ### Configure Environment Variables
     Create a .env file in the root directory with the following content:
 
-```bash 
+```env
     DATABASE_URL=postgresql://<username>:<password>@localhost/<dbname>
-    SECRET_KEY=your_secret_key
     ALGORITHM=HS256
-    ACCESS_TOKEN_EXPIRE_MINUTES=30
-```
+    ACCESS_TOKEN_EXPIRE_MINUTES=30 ```
     Replace the placeholders with your actual PostgreSQL credentials and a secure secret key.
 
 ### 5️⃣ Start the Server
 ```bash
-    uvicorn app.main:app --reload 
-```
+    uvicorn app.main:app --reload ```
     Visit the app at: http://127.0.0.1:8000
 
 ### 📬 API Documentation
@@ -116,7 +93,7 @@ pip install -r requirements.txt
         3. Make your changes and commit (git commit -am 'Add feature')
         4. Push to the branch (git push origin feature-name)
         5.Open a Pull Request 🚀
-        
+
 ### 👨‍💻 Author
     Vansh Motiramani
     
