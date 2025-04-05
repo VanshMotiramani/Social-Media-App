@@ -37,7 +37,8 @@ A fully functional **backend** for a social media platform built using **FastAPI
 ---
 
 ## 📂 Project Structure
-<pre lang="text"> ```
+<pre lang="text"> 
+```tree
 text social-media-app/ 
 ├── app/ 
 │ ├── routes/ 
@@ -54,7 +55,8 @@ text social-media-app/
 │ └── utils/ # Token handling, hashing, etc. 
 ├── requirements.txt 
 ├── .env # Environment variables 
-└── README.md ``` </pre>
+└── README.md 
+``` </pre>
 
 ---
 
