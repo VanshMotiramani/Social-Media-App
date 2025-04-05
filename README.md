@@ -37,7 +37,24 @@ A fully functional **backend** for a social media platform built using **FastAPI
 ---
 
 ## 📂 Project Structure
-<pre lang="text"> ```text social-media-app/ ├── app/ │ ├── routes/ │ │ ├── auth.py │ │ ├── posts.py │ │ ├── users.py │ │ └── vote.py │ ├── main.py # Entry point │ ├── config.py │ ├── database.py │ ├── model.py │ ├── oauth2.py │ ├── schemas.py │ └── utils/ # Token handling, hashing, etc. ├── requirements.txt ├── .env # Environment variables └── README.md ``` </pre>
+<pre lang="text"> ```
+text social-media-app/ 
+├── app/ 
+│ ├── routes/ 
+│ │ ├── auth.py 
+│ │ ├── posts.py 
+│ │ ├── users.py 
+│ │ └── vote.py 
+│ ├── main.py # Entry point 
+│ ├── config.py 
+│ ├── database.py 
+│ ├── model.py 
+│ ├── oauth2.py 
+│ ├── schemas.py 
+│ └── utils/ # Token handling, hashing, etc. 
+├── requirements.txt 
+├── .env # Environment variables 
+└── README.md ``` </pre>
 
 ---
 
