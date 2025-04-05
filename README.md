@@ -39,7 +39,7 @@ A fully functional **backend** for a social media platform built using **FastAPI
 ## 📂 Project Structure
 <pre lang="text"> 
 
-text social-media-app/ 
+social-media-app/ 
 ├── app/ 
 │ ├── routes/ 
 │ │ ├── auth.py 
