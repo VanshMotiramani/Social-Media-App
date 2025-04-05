@@ -52,7 +52,7 @@ social-media-app/
 │ ├── model.py 
 │ ├── oauth2.py 
 │ ├── schemas.py 
-│ └── utils/ # Token handling, hashing, etc. 
+│ └── utils.py # Token handling, hashing, etc. 
 ├── requirements.txt 
 ├── .env # Environment variables 
 └── README.md 
@@ -92,9 +92,11 @@ pip install -r requirements.txt
 ```env
     DATABASE_URL=postgresql://<username>:<password>@localhost/<dbname>
     ALGORITHM=HS256
-    ACCESS_TOKEN_EXPIRE_MINUTES=30 ```
-    Replace the placeholders with your actual PostgreSQL credentials and a secure secret key.
+    ACCESS_TOKEN_EXPIRE_MINUTES=30 
 ```
+
+Replace the placeholders with your actual PostgreSQL credentials and a secure secret key.
+
 
 ---
 
@@ -110,6 +112,7 @@ pip install -r requirements.txt
 FastAPI provides auto-generated documentation:
 
 📄 Swagger UI → http://127.0.0.1:8000/docs
+
 📄 ReDoc UI → http://127.0.0.1:8000/redoc
 
 ---
