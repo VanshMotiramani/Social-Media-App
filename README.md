@@ -38,7 +38,7 @@ A fully functional **backend** for a social media platform built using **FastAPI
 
 ## 📂 Project Structure
 <pre lang="text"> 
-```tree
+
 text social-media-app/ 
 ├── app/ 
 │ ├── routes/ 
@@ -56,7 +56,7 @@ text social-media-app/
 ├── requirements.txt 
 ├── .env # Environment variables 
 └── README.md 
-``` </pre>
+ </pre>
 
 ---
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 ---
 
-### 📬 API Documentation
+## 📬 API Documentation
 FastAPI provides auto-generated documentation:
 
 * Swagger UI → http://127.0.0.1:8000/docs
@@ -112,7 +112,7 @@ FastAPI provides auto-generated documentation:
 
 ---
 
-### 🔐 Security
+## 🔐 Security
 * Passwords are hashed securely using passlib with the bcrypt algorithm.
 * Authenticated sessions are powered by JWT tokens (python-jose).
 * Access to protected routes requires a valid Bearer Token in the header.
@@ -121,7 +121,7 @@ FastAPI provides auto-generated documentation:
 ---
 
 
-### 🤝 Contribution
+## 🤝 Contribution
 
 Contributions are welcome! To contribute:
 1. Fork the repo
@@ -133,7 +133,7 @@ Contributions are welcome! To contribute:
 
 ---
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 Vansh Motiramani
 
